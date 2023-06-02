@@ -55,7 +55,7 @@ function exibirRanking(ranking) {
   // Loop que percorre os elementos do array 'ranking'
   for (let i = 0; i < ranking.length; i++) {
     console.log(`${i + 1}º - ${ranking[i].pontos} pontos`);
-  } // Imprime a posição, pontuação e nome do jogador no ranking
+  } // Imprime a posição e a pontuação do jogador no ranking
   
   console.log();
 }
